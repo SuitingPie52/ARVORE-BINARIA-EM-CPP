@@ -2,13 +2,13 @@
 #include <stdlib.h>
 #include <time.h>
 
-// pr√©-ordem: raiz -> esquerda -> direita
-// em-ordem: esquerda -> raiz -> direita (mais √∫til)
-// p√≥s-ordem: esquerda -> direita -> raiz
+// prÈ-ordem: raiz -> esquerda -> direita
+// em-ordem: esquerda -> raiz -> direita (mais ˙til)
+// pÛs-ordem: esquerda -> direita -> raiz
 
 
 //////////////////////////////////////////////////////////////
-// PROGRAMA QUE IMPLEMENTA AS NAVEGA√á√ïES EM √ÅRVORE BIN√ÅRIA //
+// PROGRAMA QUE IMPLEMENTA AS NAVEGA«’ES EM ¡RVORE BIN¡RIA //
 ////////////////////////////////////////////////////////////
 
 struct no {
@@ -48,7 +48,7 @@ struct no *inserir (struct no * raiz, int numero) {
 } 
 
 //////////////////////////////////////////////
-// Fun√ß√£o que navega a √°rvore em pr√©-ordem //
+// FunÁ„o que navega a ·rvore em prÈ-ordem //
 ////////////////////////////////////////////
 
 void navegarPreOrdem(struct no *raiz) {
@@ -65,7 +65,7 @@ void navegarPreOrdem(struct no *raiz) {
 
 
 /////////////////////////////////////////////
-// Fun√ß√£o que navega a √°rvore em em-ordem //
+// FunÁ„o que navega a ·rvore em em-ordem //
 ///////////////////////////////////////////
 
 void navegarEmOrdem(struct no *raiz) {
@@ -81,7 +81,7 @@ void navegarEmOrdem(struct no *raiz) {
 }
 
 /////////////////////////////////////////////
-// Fun√ß√£o que navega a √°rvore em p√≥s-ordem //
+// FunÁ„o que navega a ·rvore em pÛs-ordem //
 ///////////////////////////////////////////
 
 void navegarPosOrdem(struct no *raiz) {
@@ -118,4 +118,5 @@ int main () {
 	navegarPosOrdem(raiz);
 	
 }
+
 
